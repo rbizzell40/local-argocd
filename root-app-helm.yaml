@@ -19,7 +19,7 @@ spec:
       kind: Application
   project: default
   source:
-    path: apps-helm-chart/apps
+    path: velero
     repoURL: https://github.com/rbizzell40/local-argocd.git
     targetRevision: main
   syncPolicy:

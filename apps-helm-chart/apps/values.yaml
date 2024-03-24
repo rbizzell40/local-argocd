@@ -2,6 +2,6 @@ spec:
   destination:
     server: "https://kubernetes.default.svc"
   source:
-    repoURL: "https://github.com/rbizzell40/local-argocd.git"
+    repoURL: "https://vmware-tanzu.github.io/helm-charts"
     targetRevision: HEAD
 
