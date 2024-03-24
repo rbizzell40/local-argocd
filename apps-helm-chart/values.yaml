@@ -1,0 +1,7 @@
+spec:
+  destination:
+    server: "https://kubernetes.default.svc"
+  source:
+    repoURL: "https://github.com/rbizzell40/local-argocd.git"
+    targetRevision: HEAD
+
