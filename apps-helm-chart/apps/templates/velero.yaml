@@ -11,7 +11,13 @@ spec:
     server: {{ .Values.spec.destination.server  }}
   project: default
   source:
-    path: charts/velero
+    path: velero
+    helm:
+      values: |
+        image:
+          tag: "v1.10.2
+        initContainerImage:
+          tag: "v1.6.1
     repoURL: {{ .Values.spec.source.repoURL  }}
     targetRevision: {{ .Values.spec.source.targetRevision  }}
   syncPolicy:
